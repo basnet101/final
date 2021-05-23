@@ -1,0 +1,367 @@
+
+/* formats the contents of the HTML body */
+body
+{
+	background-image: url(horse.jpeg);
+	background-size:cover;
+	background-repeat: no-repeat;
+
+}
+
+/* formats the contents for the 'contact us' form area */
+.bg1
+{
+	text-align: center; 
+	color: white;
+}
+
+/* formats the heading text of 'Home' page */
+.text
+{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+
+}
+
+/* formats the main contents for 'Home' page */
+.main
+{
+	color:#f1eded;
+	text-align: center;
+	text-shadow: 2px -1px black;
+}
+
+/* formats all the hyperlink texts */
+.a
+{
+	color: blue;
+	text-decoration: none;
+	text-shadow: 2px 2px solid black;
+	
+}
+
+/* changes the formatting while hovering over hyperlink text */
+.a:hover
+{
+	color: red;
+}
+
+/* changes formatting of active navigation bar tab */
+.s1
+{
+	background-color:  orange;
+}
+
+/* formatting for the navigation bar */
+nav
+{
+	width: 100%;
+	height: 65px;
+	display:inline-block;
+}
+
+/* formatting for the contents of unordered list */
+ul
+{
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	
+}
+
+/* formatting for the contents of unordered list elements */
+ul li
+{
+	display: inline-block;
+}
+
+/* formatting for the contents of unordered list elements anchors */
+ul li a
+{
+	background-color: white;
+	padding-left: 10px;
+	padding-right: 20px;
+	border:1px solid white;
+	transition: 1s
+
+}
+
+/* formatting for the contents of unordered list elements anchors upon hovering */
+ul li a:hover
+{
+	background-color: orange;
+}
+
+/* formatting for personal info in 'Contact' page */
+.b
+{
+	float:right;
+	color: black;
+	margin: 10px;
+	font-size: 20px;
+	margin-top:-20px;
+	padding-right: 30px;
+}
+
+/* formatting for text field in 'Contact' page */
+.bis
+{
+	height: 20px;
+	width: 65px;
+}
+
+/* formatting for Portfolio area in 'Home' page */
+.Port
+{
+	position: relative;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 20px;
+    left: 40%;
+    right: 50%;
+    text-decoration: none;
+    background-image: url(cod.jpg);
+    background-size: 310px;
+    animation-duration: 2s;
+}
+
+/* formatting for Content area in 'Home' page */
+.cont
+{
+	background-image:url(us.jpg);
+	position: relative;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 20px;
+   	left: 40%;
+    right: 50%; 
+    background-size: 290px;
+}
+
+/* formatting for CV area in 'Home' page */
+.cv
+{
+	background-image: url(friend.jpg);
+	position: relative;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 20px;
+    left: 40%;
+    right: 50%;
+    background-size: 300px;
+    animation-duration: 2s;
+}
+
+/* formatting for Site Report area in 'Home' page */
+.site
+{
+	background-image: url(myphoto.jpg);
+	position: relative;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 20px;
+    left: 40%;
+    right: 50%;
+}
+
+/* formatting for Portfolio area hyperlink */
+#p1
+{
+	text-decoration: none;
+	color: white;
+	text-shadow: none;
+}
+
+/* formatting for Portfolio area hyperlink while hovering */
+#p1:hover
+{
+	color: red;
+}
+
+/* formatting for CV area while hovering */
+.cv:hover
+{
+	background:url(friend.jpg);
+	transition:1.5s ease;
+	background-size: 400px;
+}
+
+/* formatting for Content area while hovering */
+.cont:hover
+{
+	transition: 1.5s ease;
+	background-size: 350px;
+}
+
+/* formatting for Portfolio area while hovering */
+.Port:hover
+{
+	transition: 1.5s ease;
+	background-size: 400px;
+
+}
+
+/* formatting for Site Report area while hovering */
+.site:hover
+{
+	background:orange;
+	transition: 1.5s ease;
+	background-size: 200px;
+}
+
+/* formatting for main contents of CV page */
+.me
+{
+	line-height: 15px;
+}
+
+/* formatting for photo of CV page */
+.myphoto
+{
+	height: 300px;
+	float: right;
+	top:20px;
+	padding: 25px;
+}
+
+/* formatting for first placeholder contents of Portfolio page */
+#first
+{
+	background-color: #faebd7;
+	text-align: center;
+	height: 150px;
+	width: 60%;
+	border: 5px solid black;
+	opacity: 0.5;
+}
+
+/* formatting for second placeholder contents of Portfolio page */
+#second
+{
+	background-color:blue;
+	height:150px;
+	text-align: center;
+	width: 60%;
+	border: 5px solid black;
+	opacity: 0.5
+
+}
+
+/* formatting for third placeholder contents of Portfolio page */
+#third
+{
+	background-color: #7390da;
+	height: 150px;
+	text-align: center;
+	width: 60%;
+	border: 5px solid black;
+	opacity: 0.5
+}
+
+/* formatting for fourth placeholder contents of Portfolio page */
+#fourth
+{
+	background-color: blue;
+	height: 150px;
+	text-align: center;
+	width: 60%;
+	border: 5px solid black;
+	opacity: 0.5
+}
+
+.fifth
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-row-gap:120px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+.tom
+{
+	opacity: 0;
+}
+
+/* formatting for the navigation area */
+.nav-area
+{
+	visibility: visible;
+}
+
+/* formatting for responsive viewing */
+@media screen and (max-width: 500px){
+	
+	.Abar
+	{
+		width: 50px;
+		height: 7px;
+		background-color: black;
+		margin: 5px;
+	}
+
+	.nav-area
+	{
+		transform:scale(0);
+		display:flex;
+		flex-direction: column;
+
+	}
+
+	.bar input:checked ~ .nav-area
+	{
+		transform: scale(1);
+		transition-duration: 1s;
+	}
+
+	ul
+	{
+		margin: 0px;
+		float: none;
+		padding: 0px;
+		background-color: white;
+		width: 50%;
+		opacity: 0.9;
+	}
+
+	.tom
+	{
+		position: relative;
+		width: 30px;
+		height: 30px;
+		top: 40px;
+		left: 12px;
+		opacity: 0;
+	}
+
+	h1
+	{
+		margin-top: 70px;
+	}
+
+
+	.fifth
+	{
+		margin-top: 25%;
+	}
+
+	.count
+	{
+		margin-left: -227px;
+	}
+
+	.test1
+	{
+		line-height: 30px;
+	}
+}
