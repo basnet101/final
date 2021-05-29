@@ -37,7 +37,7 @@ body
 {
 	color: blue;
 	text-decoration: none;
-	/*text-shadow: 2px 2px solid black;*/
+	
 	
 }
 
@@ -82,8 +82,8 @@ ul li a
 	background-color: white;
 	padding-left: 10px;
 	padding-right: 20px;
-	/*border:1px solid white;*/
-	transition: 1s;
+	border:1px solid white;
+	transition: 1s
 
 }
 
@@ -298,6 +298,51 @@ ul li a:hover
 {
 	visibility: visible;
 }
+.obj{
+	font-size: 20px;
+	
+}
+.images{
+	width: 440px;
+    height: 250px;
+   
+    
+}
+.homebefore{
+float: left;
+padding-left: 20px;
+}
+.homeafter{
+	float: right;
+	padding-left: 100px;
+}
+.contactbefore{
+	float: left;
+	padding-left: 20px ;
+}
+.contactafter{
+	float: right;
+	padding-left: 100px;
+}
+.contactreport{
+	display: inline-flex;
+}
+.homereport{
+	display: inline-flex;
+
+}
+.reportbefore{
+	float: left;
+	padding-left: 20px ;
+}
+.reportafter{
+	float: right;
+	padding-left: 100px;
+}
+.report2{
+	display: inline-flex;
+}
+
 
 /* formatting for responsive viewing */
 @media screen and (max-width: 500px){
@@ -363,5 +408,25 @@ ul li a:hover
 	.test1
 	{
 		line-height: 30px;
+	}
+
+	.report2{
+		display:inline-block;
+	}
+	.homereport{
+		display: inline-block;
+
+	}
+	.contactreport{
+		display: inline-block;
+	}
+	.contactafter{
+		margin-left: -100px;
+	}
+	.homeafter{
+		margin-left:-100px ;
+	}
+	.reportafter{
+		margin-left: -100px;
 	}
 }
