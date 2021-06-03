@@ -162,7 +162,7 @@ ul li a:hover
 /* formatting for Site Report area in 'Home' page */
 .site
 {
-	background-image: url(myphoto.jpg);
+	
 	position: relative;
     width: 250px;
     padding: 20px;
@@ -359,6 +359,7 @@ padding-left: 20px;
 		height: 7px;
 		background-color: black;
 		margin: 5px;
+		
 	}
 
 	.nav-area
